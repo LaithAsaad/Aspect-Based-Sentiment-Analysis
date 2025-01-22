@@ -1,10 +1,10 @@
-Aspect-Based Sentiment Analysis (ABSA)
+*Aspect-Based Sentiment Analysis (ABSA)*
 This project implements an Aspect-Based Sentiment Analysis (ABSA) system, leveraging various Natural Language Processing (NLP) techniques and models. The system analyzes user reviews of laptops to identify sentiment associated with specific aspects such as performance, display, or durability.
 
-Dataset Overview
+**Dataset Overview**
 Dataset: SemEval-2014 ABSA
 Number of records: 2,313 rows
-Approach and Techniques
+**Approach and Techniques**
 1. Data Pre-Processing
 Converting text to lowercase
 Tokenization and lemmatization
@@ -30,5 +30,5 @@ Accuracy improved from 67% to 79% after 4 epochs
 DeBERTa-v3-base (Powered by PyABSA):
 Accuracy before fine-tuning: 95%
 Accuracy after fine-tuning: 96%
-Results
+**Results**
 Fine-tuning transformer-based models significantly improved performance, with DeBERTa-v3 achieving the highest accuracy of 96%.
